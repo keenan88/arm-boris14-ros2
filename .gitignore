@@ -1,0 +1,15 @@
+# Build directories and output files
+hardware/firmware/boris_uros_g431kb/Debug/
+hardware/firmware/boris_uros_g431kb/Release/
+hardware/firmware/boris_uros_g431kb/build/
+hardware/firmware/boris_uros_g431kb/*.elf
+hardware/firmware/boris_uros_g431kb/*.bin
+hardware/firmware/boris_uros_g431kb/*.hex
+hardware/firmware/boris_uros_g431kb/*.map
+hardware/firmware/boris_uros_g431kb/*.lst
+hardware/firmware/boris_uros_g431kb/*.o
+hardware/firmware/boris_uros_g431kb/*.d
+hardware/firmware/boris_uros_g431kb/*.axf
+hardware/firmware/boris_uros_g431kb/*.srec
+hardware/firmware/boris_uros_g431kb/*.out
+

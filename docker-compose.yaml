@@ -1,0 +1,12 @@
+services:
+  boris14_stm32_uros_agent:
+    image: microros/micro-ros-agent:humble
+    container_name: boris14_stm32_uros_agent
+    stdin_open: true
+    tty: true
+    command: serial --dev /dev/ttyACM0 -v2
+    privileged: true
+    network_mode: host
+    restart: "no"
+    ipc: host
+    pid: host
